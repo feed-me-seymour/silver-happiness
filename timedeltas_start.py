@@ -27,7 +27,7 @@ t = datetime.now() - timedelta(weeks=1)
 s = t.strftime("%A %B %d, %Y")
 print("One week ago, it was " + s)
 
-### How many days until April Fools' Day?
+### How many days until Christmas Day?
 today = date.today()
 xmasday = date(today.year, 12, 25)
 
