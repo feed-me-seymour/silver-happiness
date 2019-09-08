@@ -54,3 +54,9 @@ print("Leap year: " + leap_year_datetime.strftime('%m/%d/%Y, %H:%M:%S'))
 
 next_year_datetime = leap_year_datetime + pd.DateOffset(years=1)
 print("Plus one year: " + next_year_datetime.strftime('%m/%d/%Y, %H:%M:%S'))
+
+today_datetime = datetime.now()
+print("Today: " + today_datetime.strftime("%m/%d/%Y, %H:%M:%S"))
+
+plus_one_year_datetime = today_datetime + pd.DateOffset(years=1)
+print("Today + One Year: " + plus_one_year_datetime.strftime("%m/%d/%Y, %H:%M:%S"))
